@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 0;
+  background-color: #dce3e9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  width: 1200px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+header,
+.search_btn {
+  padding: 40px 120px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 1.1rem;
+}
+
+.navbar div {
+  margin-left: 20px;
+  padding-bottom: 4px;
+}
+
+.navbar div a {
+  text-decoration: none;
+  color: #2e3336;
+}
+
+.active {
+  border-bottom: 1.5px solid #2e3336;
+}
+
+.search_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: rgba(128, 128, 128, 0.438);
+}
+
+.search_btn .input-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 300px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+.search_btn .input-section input {
+  padding: 15px 10px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.search_btn .input-section i {
+  padding: 2px;
+  margin: 10px 10px;
+}
+
+.search_btn button {
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e3336;
+  font-size: 1.1rem;
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 15px black;
+          box-shadow: 0px 10px 15px black;
+}
+
+.search_btn button:hover {
+  cursor: pointer;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main {
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (285px)[3];
+      grid-template-columns: repeat(3, 285px);
+  grid-gap: 12px;
+}
+/*# sourceMappingURL=style.css.map */
